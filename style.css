@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.container{
+    background-color: #ccc;
+    padding: 105px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* flex-wrap: wrap; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 500px;
+}
+.item{
+    background-color: #f1425d;
+    padding: 40px;
+    margin: 10px;
+    color: #fff;
+    font-size: 40px;
+    list-style: none;
+}
+.one{
+    margin-top: 50px;
+}
+.two{
+    margin-bottom: 50px;
+}
+.three{
+    margin-top: 90px;
+}
+.four{
+    margin-top: 20px;
+}
+.six{
+    margin-top: 30px;
+}
